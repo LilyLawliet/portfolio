@@ -12,10 +12,10 @@ export default function SectionFive() {
 
     emailjs
       .sendForm(
-        "service_ukn453v", // replace with EmailJS service ID
-        "template_4qikhto", // replace with EmailJS template ID
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         form.current,
-        "8uCyC4pD_6h2vADYY" // replace with EmailJS public key
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
       )
       .then(
         () => {
@@ -27,6 +27,7 @@ export default function SectionFive() {
         }
       );
   };
+
 
   return (
     <section

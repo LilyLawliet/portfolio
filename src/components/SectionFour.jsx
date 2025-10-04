@@ -65,13 +65,6 @@ export default function SectionFour() {
             your brand’s voice, ensuring every interaction feels uniquely
             tailored.
           </p>
-          {/* <motion.a
-            href="#"
-            whileHover={{ x: 6 }}
-            className="inline-flex items-center gap-2 px-6 py-3 border border-purple-400/40 text-purple-200 rounded-full tracking-wide text-sm md:text-base font-medium hover:border-purple-300 hover:text-purple-100 transition"
-          >
-            Join the Waitlist <ArrowUpRight className="w-5 h-5" />
-          </motion.a> */}
         </motion.div>
       </div>
     </section>
